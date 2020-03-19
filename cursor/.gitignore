@@ -1,0 +1,17 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/cursor
+cursor.so
+cursor.dylib
+cursor.dll
+cursor.a
+cursor.lib
+cursor-test-*
+*.exe
+*.o
+*.obj
+*.lst
+dub.selections.json
+/assets/cursor.png

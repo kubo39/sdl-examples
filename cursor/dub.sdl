@@ -1,0 +1,8 @@
+name "cursor"
+description "bindbc-sdl cursor example"
+authors "Hiroki Noda"
+copyright "Copyright © 2020, Hiroki Noda"
+license "BSL-1.0"
+dependency "bindbc-sdl" version="~>0.13.0"
+versions "BindSDL_Static" "BindSDL_Image"
+libs "SDL2" "SDL2_image"
