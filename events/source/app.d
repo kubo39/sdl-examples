@@ -7,9 +7,12 @@ import std.string;
 
 shared static this()
 {
-    assert(SDL_Init(0) == 0);
-    assert(SDL_InitSubSystem(SDL_INIT_VIDEO) == 0);
-    assert(SDL_InitSubSystem(SDL_INIT_EVENTS) == 0);
+    int ret = SDL_Init(0);
+    assert(ret == 0);
+    ret = SDL_InitSubSystem(SDL_INIT_VIDEO);
+    assert(ret == 0);
+    ret = SDL_InitSubSystem(SDL_INIT_EVENTS);
+    assert(ret == 0);
 }
 
 shared static ~this()
