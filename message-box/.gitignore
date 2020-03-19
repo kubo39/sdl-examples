@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/message-box
+message-box.so
+message-box.dylib
+message-box.dll
+message-box.a
+message-box.lib
+message-box-test-*
+*.exe
+*.o
+*.obj
+*.lst
+dub.selections.json
