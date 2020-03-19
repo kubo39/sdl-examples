@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/sdl-demo
+sdl-demo.so
+sdl-demo.dylib
+sdl-demo.dll
+sdl-demo.a
+sdl-demo.lib
+sdl-demo-test-*
+*.exe
+*.o
+*.obj
+*.lst
+dub.selections.json
