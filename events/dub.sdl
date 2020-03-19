@@ -1,0 +1,8 @@
+name "events"
+description "binbc-sdl events example."
+authors "Hiroki Noda"
+copyright "Copyright © 2020, Hiroki Noda"
+license "BSL-1.0"
+dependency "bindbc-sdl" version="~>0.13.0"
+versions "BindSDL_Static"
+libs "SDL2"
